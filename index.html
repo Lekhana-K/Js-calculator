@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple calculator</title>
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+    <div class="outer">
+    <DIV class="border">
+        
+    
+    
+        <ins><h2>ENTER THE NUMBER 1 :<h2></ins> 
+        <input type="number" id="n1" placeholder="Enter the first number"><br>
+        <h2>ENTER THE NUMBER 2 :</h2>
+        <input type="number" id="n2" placeholder="Enter the second number"><br>
+        <ins><h3>ADDITION</h3></ins>
+        <p id="button1" placeholder="ans"></p>
+            <button id="b1" type="button" onclick='add()'>ADDITION (+)</button><br><br>
+        <ins><h3>SUBTRATION</h3></ins>
+            <p id="button2" placeholder="ans" class="sub"></p>
+            <!-- <P>SUBRACTION</P> -->
+            <button id="b2" type="button" onclick='sub()'>SUBTRATION (-)</button><br><br>
+        <ins><h3>MULTIPLICATION</h3></ins>
+            <p id="button3" placeholder="ans" class="mul"></p>
+            <!-- <P>MULTIPLICATION</P> -->
+            <button id="b3" type="button" onclick='mul()'>MULTIPLICATION (*)</button><br><br>
+        <ins><h3>DIVISION</h3></ins>
+            <p id="button4" placeholder="ans" class="div"></p>
+            <!-- <P>DIVISION</P> -->
+            <button id="b4" type="button" onclick='div()'>DIVISION (/)</button><br><br>        
+    </DIV>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
